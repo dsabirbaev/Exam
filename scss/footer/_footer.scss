@@ -17,11 +17,14 @@ footer{
         ul{
             cursor: pointer;
             li:first-child{
-                @include font-style(26px, $ff-SharpSansBold, $color-intro-text);
+                @include font-style(26px, $ff-SharpSansBold, #657582);
                 margin-bottom: 34px;
             }
             li{
                 @include font-style(16px, $ff-SharpSansRegular, #657582);
+                &:hover{
+                    color: $color-intro-text;
+                }
             }
             li:nth-child(2){
                 max-width: 272px;
@@ -36,12 +39,15 @@ footer{
         ul{
             cursor: pointer;
             li:first-child{
-                @include font-style(26px, $ff-SharpSansBold, $color-intro-text);
+                @include font-style(26px, $ff-SharpSansBold, #657582);
                 margin-bottom: 20px;
             }
             li{
                 @include font-style(16px, $ff-SharpSansRegular, #657582);
                 margin-bottom: 12px;
+                &:hover{
+                    color: $color-intro-text;
+                }
             }
         }
     }

@@ -824,7 +824,7 @@ footer {
 .footer__left ul li:first-child {
   font-size: 26px;
   font-family: "SharpSans-Bold", sans-serif;
-  color: #181D19;
+  color: #657582;
   text-transform: none;
   margin-bottom: 34px;
 }
@@ -833,6 +833,9 @@ footer {
   font-family: "SharpSans-Regular", sans-serif;
   color: #657582;
   text-transform: none;
+}
+.footer__left ul li:hover {
+  color: #181D19;
 }
 .footer__left ul li:nth-child(2) {
   max-width: 272px;
@@ -852,7 +855,7 @@ footer {
 .footer__right ul li:first-child {
   font-size: 26px;
   font-family: "SharpSans-Bold", sans-serif;
-  color: #181D19;
+  color: #657582;
   text-transform: none;
   margin-bottom: 20px;
 }
@@ -862,6 +865,9 @@ footer {
   color: #657582;
   text-transform: none;
   margin-bottom: 12px;
+}
+.footer__right ul li:hover {
+  color: #181D19;
 }
 .footer-bottom {
   padding: 20px 0;
