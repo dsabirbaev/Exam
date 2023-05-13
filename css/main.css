@@ -818,6 +818,9 @@ footer {
      -moz-column-gap: 100px;
           column-gap: 100px;
 }
+.footer__left ul {
+  cursor: pointer;
+}
 .footer__left ul li:first-child {
   font-size: 26px;
   font-family: "SharpSans-Bold", sans-serif;
@@ -842,6 +845,9 @@ footer {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+}
+.footer__right ul {
+  cursor: pointer;
 }
 .footer__right ul li:first-child {
   font-size: 26px;

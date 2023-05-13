@@ -15,6 +15,7 @@ footer{
     }
     &__left{
         ul{
+            cursor: pointer;
             li:first-child{
                 @include font-style(26px, $ff-SharpSansBold, $color-intro-text);
                 margin-bottom: 34px;
@@ -33,6 +34,7 @@ footer{
         display: flex;
         justify-content: space-between;
         ul{
+            cursor: pointer;
             li:first-child{
                 @include font-style(26px, $ff-SharpSansBold, $color-intro-text);
                 margin-bottom: 20px;
