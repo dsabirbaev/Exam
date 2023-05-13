@@ -1,0 +1,81 @@
+
+
+#clients{
+    width: 100%;
+    background-color: #FCFCFC;
+}
+
+.clients{
+    &-wrapper{
+        padding: 70px 0;
+    }
+    &__title{
+        @include font-style(54px, $ff-SharpSansBold, $color-intro-text);
+        line-height: 68px;
+        text-align: center;
+    }
+    &-card{
+        display: flex;
+        column-gap: 25px;
+        justify-content: center;
+        &__user{
+            padding: 40px 27px;
+            background: $color-white;
+            border: 2px solid $color-white;
+            border-radius: 8px;
+            max-width: 514px;
+           
+            cursor: pointer;
+            &--header{
+                
+                position: relative;
+                display: flex;
+                align-items: center;
+                column-gap: 37px;
+                &-name{
+                    h1{
+                        @include font-style(20px, $ff-SharpSansBold, $color-intro-text);
+                    }
+                    p{
+                        @include font-style(14px, $ff-SharpSansRegular, #888A9A);
+                    }
+                }
+                &::after{
+                    content: "";
+                    background-image: url(../assets/icons/clients.svg);
+                    background-repeat: no-repeat;
+                    width: 87px;
+                    height: 71px;
+                    position: absolute;
+                    top: 0;
+                    right: 0;
+                }
+            }
+            &--text{
+                margin-top: 32px;
+                @include font-style(18px, $ff-SharpSansRegular, $color-intro-text);
+                line-height: 30px;
+                text-align: justify;
+            }
+
+            &:hover{
+                box-shadow: 3px 15px 35px rgba(120, 125, 173, 0.06);
+            }
+        }
+    }
+
+    &__arrow{
+        margin-top: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        column-gap: 20px;
+        i{
+            font-size: 40px;
+            cursor: pointer;
+            &:hover{
+                color: $color-hover;
+            }
+        }
+    }
+}

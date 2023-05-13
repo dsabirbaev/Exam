@@ -1,0 +1,35 @@
+
+#fresh-vegetables{
+    width: 100%;
+}
+
+.fresh-vegetables{
+
+    &-wrapper{
+        display: flex;
+        padding-top: 120px;
+        column-gap: 70px;
+    }
+    &__content{
+        &--title{
+            @include font-style(54px, $ff-SharpSansBold, $color-intro-text);
+            max-width: 500px;
+        }
+        &--text{
+            @include font-style(22px, $ff-SharpSansRegular, $color-intro-text);
+            line-height: 34px;
+            max-width: 545px;
+        }
+        &--btn{
+            @include font-style(24px, $ff-SofiaProRegular, $color-white);
+            background-color: $color-list;
+            padding: 16px 41px;
+            border-radius: 50px;
+            margin-top: 40px;
+            &:hover{
+                background-image: $color-bg-btn;
+            }
+        }
+    }
+   
+}

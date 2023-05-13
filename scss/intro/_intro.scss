@@ -1,0 +1,57 @@
+
+
+#intro{
+    min-height: 990px;
+    width: 100%;
+
+    background-image: url(../assets/images/intro/food1x.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    // background-position: 20% -20%;
+}
+
+
+  
+  /* Background image for 2x (retina) devices */
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+         only screen and (min--moz-device-pixel-ratio: 2),
+         only screen and (-o-min-device-pixel-ratio: 2/1),
+         only screen and (min-device-pixel-ratio: 2),
+         only screen and (min-resolution: 192dpi),
+         only screen and (min-resolution: 2dppx) {
+    #intro {
+        background-image: url(../assets/images/intro/food2x.png);
+    }
+}
+  
+
+.intro{
+    &-wrapper{
+        padding-top: 160px;
+        padding-left: 60px;
+    }
+    &__title{
+        @include font-style(76px, $ff-SharpSansBold, $color-intro-text);
+        max-width: 626px;
+       
+        line-height: 95px;
+        span{
+            color: $color-hover;
+        }
+    }
+    &__text{
+        @include font-style(24px, $ff-SharpSansRegular, $color-intro-text);
+        max-width: 540px;
+        line-height: 34px;
+    }
+    &__btn{
+        padding: 16px 40px;
+        border-radius: 50px;
+        background-color: $color-list;
+        @include font-style(24px, $ff-SofiaProRegular, $color-white);
+        margin-top: 50px;
+        &:hover{
+            background-image: $color-bg-btn;
+        }
+    }
+}

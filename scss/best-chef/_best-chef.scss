@@ -1,0 +1,36 @@
+
+#best-chef{
+    width: 100%;
+}
+.best-chef{
+    &-wrapper{
+        padding-top: 80px;
+        display: flex;
+        column-gap: 22px;
+    }
+    &__content{
+        display: flex;
+        flex-direction: column;
+        &--title{
+            @include font-style(54px, $ff-SharpSansBold, $color-intro-text);
+            max-width: 500px;
+            line-height: 67.5px;
+        }
+        &--text{
+            @include font-style(22px, $ff-SharpSansRegular, $color-intro-text);
+            line-height: 34px;
+            max-width: 510px;
+        }
+        &--list{
+            margin-top: 30px;
+            display: flex;
+            flex-direction: column;
+            row-gap: 20px;
+            @include font-style(20px, $ff-SharpSansRegular, $color-intro-text);
+            i{
+                color: $color-hover;
+                margin-right: 10px;
+            }
+        }
+    }
+}

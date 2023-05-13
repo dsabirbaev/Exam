@@ -1,0 +1,27 @@
+@import 'reset',
+'variables',
+'mixins',
+'fonts';
+
+
+
+
+
+.container {
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0 20px;
+    //border: 1px solid blue;
+}
+
+
+@import './header/header';
+@import './intro/intro';
+@import './choose/choose';
+@import './about/about';
+@import './fresh-vegetables/fresh-vegetables';
+@import './best-chef/best-chef';
+@import './special-dishes/special-dishes';
+@import './clients/clients';
+@import './subscribe/subscribe';
+@import './footer/footer';

@@ -1,0 +1,51 @@
+
+header{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    background-color: transparent;
+    backdrop-filter: blur(10px);
+}
+
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+    &__logo{
+        @include font-style(26px, $ff-PoppinsMedium, $color-logo);
+    }
+    &__list{
+        display: flex;
+        column-gap: 40px;
+        &--item{
+            &-link{
+                @include font-style(20px, $ff-SofiaProRegular, $color-list);
+                &:hover{
+                    color: $color-hover;
+                }
+                &:active{
+                    color: #787878;
+                }
+            }
+        }
+    }
+    &__order{
+        display: flex;
+        column-gap: 20px;
+
+        button{
+            margin-left: 10px;
+            padding: 14px 30px;
+            background-color: $color-list;
+            border-radius: 27px;
+            @include font-style(20px, $ff-SofiaProRegular, $color-white);
+            &:hover{
+                background-image: $color-bg-btn;
+            }
+        }
+    }
+}
+
+
