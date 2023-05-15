@@ -23,10 +23,10 @@ header{
             &-link{
                 @include font-style(20px, $ff-SofiaProRegular, $color-list);
                 &:hover{
-                    color: $color-hover;
+                    color: #787878;
                 }
                 &:active{
-                    color: #787878;
+                    color: $color-hover;
                 }
             }
         }
@@ -38,11 +38,11 @@ header{
         button{
             margin-left: 10px;
             padding: 14px 30px;
-            background-color: $color-list;
+            background-image: $color-bg-btn;
             border-radius: 27px;
             @include font-style(20px, $ff-SofiaProRegular, $color-white);
             &:hover{
-                background-image: $color-bg-btn;
+                background-image: $color-bg-btn-black
             }
         }
     }

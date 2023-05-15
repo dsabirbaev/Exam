@@ -159,10 +159,10 @@ header {
   text-transform: none;
 }
 .nav__list--item-link:hover {
-  color: #5FB848;
+  color: #787878;
 }
 .nav__list--item-link:active {
-  color: #787878;
+  color: #5FB848;
 }
 .nav__order {
   display: -webkit-box;
@@ -175,7 +175,8 @@ header {
 .nav__order button {
   margin-left: 10px;
   padding: 14px 30px;
-  background-color: #2C3847;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#64BB47), to(#2C9553));
+  background-image: linear-gradient(180deg, #64BB47 0%, #2C9553 100%);
   border-radius: 27px;
   font-size: 20px;
   font-family: "SofiaPro-Regular", sans-serif;
@@ -183,8 +184,8 @@ header {
   text-transform: none;
 }
 .nav__order button:hover {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#64BB47), to(#2C9553));
-  background-image: linear-gradient(180deg, #64BB47 0%, #2C9553 100%);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#494949), to(#494949));
+  background-image: linear-gradient(180deg, #494949 0%, #494949 100%);
 }
 
 #intro {
@@ -193,6 +194,7 @@ header {
   background-image: url(../assets/images/intro/food1x.png);
   background-repeat: no-repeat;
   background-size: contain;
+  background-position: 50%;
 }
 
 /* Background image for 2x (retina) devices */
@@ -227,7 +229,8 @@ header {
 .intro__btn {
   padding: 16px 40px;
   border-radius: 50px;
-  background-color: #2C3847;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#64BB47), to(#2C9553));
+  background-image: linear-gradient(180deg, #64BB47 0%, #2C9553 100%);
   font-size: 24px;
   font-family: "SofiaPro-Regular", sans-serif;
   color: #FFFFFF;
@@ -235,8 +238,8 @@ header {
   margin-top: 50px;
 }
 .intro__btn:hover {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#64BB47), to(#2C9553));
-  background-image: linear-gradient(180deg, #64BB47 0%, #2C9553 100%);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#494949), to(#494949));
+  background-image: linear-gradient(180deg, #494949 0%, #494949 100%);
 }
 
 #choose {
@@ -381,7 +384,8 @@ header {
   font-family: "SofiaPro-Regular", sans-serif;
   color: #FFFFFF;
   text-transform: none;
-  background-color: #2C3847;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#64BB47), to(#2C9553));
+  background-image: linear-gradient(180deg, #64BB47 0%, #2C9553 100%);
   padding: 16px 41px;
   border-radius: 50px;
   margin-top: 68px;
@@ -390,8 +394,8 @@ header {
   width: fit-content;
 }
 .about__content--btn:hover {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#64BB47), to(#2C9553));
-  background-image: linear-gradient(180deg, #64BB47 0%, #2C9553 100%);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#494949), to(#494949));
+  background-image: linear-gradient(180deg, #494949 0%, #494949 100%);
 }
 .about__images {
   min-width: 640px;
@@ -438,14 +442,15 @@ header {
   font-family: "SofiaPro-Regular", sans-serif;
   color: #FFFFFF;
   text-transform: none;
-  background-color: #2C3847;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#64BB47), to(#2C9553));
+  background-image: linear-gradient(180deg, #64BB47 0%, #2C9553 100%);
   padding: 16px 41px;
   border-radius: 50px;
   margin-top: 40px;
 }
 .fresh-vegetables__content--btn:hover {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#64BB47), to(#2C9553));
-  background-image: linear-gradient(180deg, #64BB47 0%, #2C9553 100%);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#494949), to(#494949));
+  background-image: linear-gradient(180deg, #494949 0%, #494949 100%);
 }
 
 #best-chef {
@@ -589,7 +594,8 @@ header {
   font-family: "SofiaPro-Regular", sans-serif;
   color: #FFFFFF;
   text-transform: none;
-  background-color: #2C3847;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#64BB47), to(#2C9553));
+  background-image: linear-gradient(180deg, #64BB47 0%, #2C9553 100%);
   padding: 16px 63px;
   border-radius: 50px;
   width: -webkit-fit-content;
@@ -597,8 +603,8 @@ header {
   width: fit-content;
 }
 .special-dishes__btn:hover {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#64BB47), to(#2C9553));
-  background-image: linear-gradient(180deg, #64BB47 0%, #2C9553 100%);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#494949), to(#494949));
+  background-image: linear-gradient(180deg, #494949 0%, #494949 100%);
 }
 
 #clients {
@@ -781,13 +787,14 @@ header {
   font-family: "SofiaPro-Regular", sans-serif;
   color: #FFFFFF;
   text-transform: none;
-  background-color: #2C3847;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#64BB47), to(#2C9553));
+  background-image: linear-gradient(180deg, #64BB47 0%, #2C9553 100%);
   padding: 17px 32px;
   border-radius: 50px;
 }
 .subscribe-wrapper form button:hover {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#64BB47), to(#2C9553));
-  background-image: linear-gradient(180deg, #64BB47 0%, #2C9553 100%);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#494949), to(#494949));
+  background-image: linear-gradient(180deg, #494949 0%, #494949 100%);
 }
 .subscribe__title {
   font-size: 36px;

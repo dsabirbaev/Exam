@@ -29,11 +29,11 @@
             }
             button{
                 @include font-style(20px, $ff-SofiaProRegular, $color-white);
-                background-color: $color-list;
+                background-image: $color-bg-btn;
                 padding: 17px 32px;
                 border-radius: 50px;
                 &:hover{
-                    background-image: $color-bg-btn;
+                    background-image: $color-bg-btn-black;
                 }
             }
         }

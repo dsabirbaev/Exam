@@ -3,11 +3,10 @@
 #intro{
     min-height: 990px;
     width: 100%;
-
     background-image: url(../assets/images/intro/food1x.png);
     background-repeat: no-repeat;
     background-size: contain;
-    // background-position: 20% -20%;
+    background-position: calc(100% - 50%);
 }
 
 
@@ -47,11 +46,11 @@
     &__btn{
         padding: 16px 40px;
         border-radius: 50px;
-        background-color: $color-list;
+        background-image: $color-bg-btn;
         @include font-style(24px, $ff-SofiaProRegular, $color-white);
         margin-top: 50px;
         &:hover{
-            background-image: $color-bg-btn;
+            background-image: $color-bg-btn-black;
         }
     }
 }

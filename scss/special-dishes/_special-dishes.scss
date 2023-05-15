@@ -56,13 +56,13 @@
     &__btn {
         margin-top: 76px;
         @include font-style(24px, $ff-SofiaProRegular, $color-white);
-        background-color: $color-list;
+        background-image: $color-bg-btn;
         padding: 16px 63px;
         border-radius: 50px;
         width: fit-content;
 
         &:hover {
-            background-image: $color-bg-btn;
+            background-image: $color-bg-btn-black;
         }
     }
 }
